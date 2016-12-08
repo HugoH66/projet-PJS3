@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<title>Nous contacter - Voyages-Exotiques.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+	</head>
+
+	<body id="debut" data-spy="scroll" data-target=".navbar" data-offset="50">
+		
+		<!-- Navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+	      <div class="container-fluid">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-logo" href="#myPage">Voyages-Exotiques.com</a>
+	        </div>
+	        <div class="collapse navbar-collapse" id="myNavbar">
+	          <ul class="nav navbar-nav navbar-right">
+	            <li><a href="index.html">ACCUEIL</a></li>
+	            <li class="dropdown">
+	              <a class="dropdown-toggle" data-toggle="dropdown" href="#">DESTINATIONS <span class="caret"></span></a>
+	              <ul class="dropdown-menu">
+					<li><a href="destination.php?pays=Papouasie">Papouasie</a></li>
+					<li><a href="destination.php?pays=Indonesie">Indonésie</a></li>
+					<li><a href="destination.php?pays=Thailande">Thaïlande</a></li>
+					<li><a href="destination.php?pays=Cuba">Cuba</a></li>
+					<li><a href="destination.php?pays=Seychelles">Seychelles</a></li>
+					<li><a href="destination.php?pays=Madagascar">Madagascar</a></li>
+					<li><a href="destination.php?pays=Tahiti">Tahiti</a></li>
+					<li><a href="destination.php?pays=BoraBora">Bora Bora</a></li>
+					<li><a href="destination.php?pays=Hawai">Hawaï</a></li>
+					<li><a href="destination.php?pays=Fidji">Iles Fidji</a></li>
+	              </ul>
+	            </li>
+	            <li><a href="croisieres.html">CROISIERES</a></li>
+	            <li><a href="envoiMail.php">CONTACT</a></li>
+	          </ul>
+	        </div>
+	      </div>
+	    </nav>
+		
+		<!-- Bannière décorative -->
+		<div class="row cover"></div>
+		
+		<!-- Coordonnées et formulaire de contact -->
+			<div class="row">
+			<div class="col-md-3 col-md-offset-1 coords">
+				<h3 class="text-center">Où nous trouver ?</h3>
+				<div id="MapContact"></div>	
+			</div>
+			<div class="col-md-4 coords">
+				<h3 class="text-center">Nous contacter</h3>		
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate, consectetur! A expedita id cumque non, unde voluptates commodi quae, asperiores totam, dolorum ipsam porro? Totam soluta rerum sequi veniam sit recusandae delectus corporis quo praesentium, nisi quasi saepe adipisci, nam doloribus et, fuga eum vel? Tenetur animi sequi fuga.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolores excepturi unde eveniet, laborum perspiciatis aliquam veritatis dolor sunt quisquam, earum nemo, fugiat ducimus corrupti architecto explicabo, quis saepe distinctio quo sapiente obcaecati alias tempora nobis. Recusandae commodi, saepe natus pariatur sunt illum impedit tempore. Harum omnis, debitis sit. Consequuntur beatae dolorem ad labore quaerat eos vel sit debitis iure. Neque similique accusantium inventore maiores pariatur, incidunt dolorum nulla atque distinctio odit quo dolor in quisquam, assumenda consequatur repellendus illum amet vero! Natus, reprehenderit. Praesentium, rem cupiditate delectus, non ratione facilis asperiores dolor inventore quisquam consequatur saepe minus voluptates, architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus est, illum voluptate magnam adipisci deserunt consectetur vero! Inventore, accusantium? Facilis.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quidem maiores, ea, sed quisquam rem recusandae non inventore dolorem nesciunt, tenetur dolore nostrum consequatur ratione odio atque! Repellendus alias cumque corrupti ea nisi aspernatur ratione pariatur facilis officiis eos praesentium, optio reprehenderit iure placeat eligendi et maiores quia ducimus doloribus aliquid quam non, dignissimos soluta accusantium. Atque debitis eum adipisci aliquid dolore optio in labore iusto quia sit velit tempore quidem error expedita cupiditate, quasi maiores animi similique! Alias, animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium culpa quasi aliquam recusandae deserunt voluptatibus dolore a expedita enim itaque, iste pariatur amet praesentium quaerat rem vel, unde nam, commodi beatae voluptatem molestiae, quae eum perferendis. Provident, similique ex sint, dolore obcaecati eius quis fugit, perspiciatis quae autem asperiores adipisci.</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Formulaire de contact</h4>
+				<div class="form-group">
+					<label for="nom">Nom :</label>
+					<input type="text" class="form-control" id="nom">
+				</div>
+				<div class="form-group">
+					<label for="prenom">Prénom :</label>
+					<input type="text" class="form-control" id="prenom">
+				</div>
+				<div class="form-group">
+					<label for="mail">Email :</label>
+					<input type="text" class="form-control" id="mail">
+				</div>
+				<div class="form-group">
+					<label for="tel">Téléphone :</label>
+					<input type="text" class="form-control" id="tel">
+				</div>
+				<div class="form-group">
+					<label for="message">Message :</label>
+					<textarea class="form-control" rows="5" id="message"></textarea>
+				</div>
+				<button class="btn btn-default btn-form">Envoyer</button>
+			</div>
+			</div>
+
+		<!-- Footer -->
+	    <footer class="text-center">
+	      <a class="up-arrow" href="#debut" data-toggle="tooltip" title="Retourner en haut de la page">
+	        <span class="glyphicon glyphicon-chevron-up"></span>
+	      </a>
+	    </footer>
+		
+		<!-- Add Google Maps -->
+		
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+	    <script src="scroll.js"></script>
+		<script>
+var myCenter = new google.maps.LatLng(48.8416491, 2.2689267000000655);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:14,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("MapContact"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+	</body>
+
+</html>
